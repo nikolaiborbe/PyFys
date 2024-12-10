@@ -19,7 +19,7 @@ This projects focus is heavily on simplicity and speed.
 # Setting up
 setup(
     name="PyFys",
-    version=0.2,
+    version="0.2.1",
     author="Nikolai G. Borbe",
     url="https://github.com/nikolaiborbe",
     author_email="nikolaiborbe@gmail.com",
@@ -27,7 +27,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     packages=find_packages(),
-    install_requires=["matplotlib", "numpy", "collections", "math"], #TODO:
+    install_requires=["matplotlib", "numpy"],
     keywords=['python', 'physics', 'graphing', 'constants'],
     classifiers=[
         "Development Status :: 1 - Planning",
