@@ -26,3 +26,4 @@ TODO:
 - [ ] Add more constants
 - [ ] Add more unit conversions
 - [ ] Create documentation
+- [ ] Update functions to work with both lists and single values
