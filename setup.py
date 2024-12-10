@@ -19,7 +19,7 @@ This projects focus is heavily on simplicity and speed.
 # Setting up
 setup(
     name="pyfys",
-    version="0.2.4",
+    version="0.2.5",
     author="Nikolai G. Borbe",
     url="https://github.com/nikolaiborbe",
     author_email="nikolaiborbe@gmail.com",
