@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-DESCRIPTION = "A library that was made to quickly make physics projects."
+DESCRIPTION = "A library to speed up physics work"
 LONG_DESCRIPTION = """This library was made to: 
 1. Quickly graph equations by removeing customizability and focusing on simplicity.
 2. Store all useful physics constants and equations.
