@@ -27,7 +27,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     packages=find_packages(),
-    install_requires=[], #TODO:
+    install_requires=["matplotlib", "numpy", "collections", "math"], #TODO:
     keywords=['python', 'physics', 'graphing', 'constants'],
     classifiers=[
         "Development Status :: 1 - Planning",
