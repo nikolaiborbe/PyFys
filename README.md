@@ -10,7 +10,7 @@ Imagine you have a list of masses and want to calculate their kinetic energy, gi
 
 ```python
 import pyfys
-fys = pyfys()
+fys = pyfys.fys()
 
 masses = [1, 2, 3, 4, 5]
 velocity = 10
@@ -46,7 +46,7 @@ Here's an example of how to use PyFys to calculate kinetic energy:
 import pyfys
 
 # Example: Calculate kinetic energy
-fys = pyfys()
+fys = pyfys.fys()
 mass = 10
 energy = [5, 10, 15]
 energy = fys.kinetic_energy(mass, energy)

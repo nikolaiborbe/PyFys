@@ -1,7 +1,5 @@
 from .constants import Constants
 from .masses import Masses
-from .main import PyFys
+from .main import fys
 
-pyfys = PyFys
-
-__all__ = ['Constants', 'Masses', 'pyfys']
+__all__ = ['Constants', 'Masses', 'fys']
