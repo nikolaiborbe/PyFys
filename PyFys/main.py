@@ -3,7 +3,7 @@ import math
 import numpy
 import collections
 
-class pyfys:
+class PyFys:
 
     def plot(self, func, start=0, stop=100, xvalues=[], title="", xlabel="", ylabel="", grid=True):
         """

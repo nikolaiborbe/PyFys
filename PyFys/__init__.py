@@ -1,7 +1,10 @@
 from .constants import Constants
 from .masses import Masses
-from .main import pyfys
+from .main import PyFys
 
 pyfys = PyFys
 
-__all__ = ['Constants', 'Masses', 'pyfys']
+def __new__(cls):
+    return PyFys()
+
+__all__ = ['Constants', 'Masses', 'main']
