@@ -3,7 +3,7 @@ import math
 import numpy
 import collections
 
-class PyFysInternal:
+class fys:
     def __init__(self):
         pass
 
