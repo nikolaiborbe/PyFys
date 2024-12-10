@@ -2,6 +2,7 @@ from .constants import Constants
 from .masses import Masses
 from .main import PyFys
 
-pyfys = PyFys()
+def __call__():
+    return PyFys()
 
-__all__ = ['Constants', 'Masses', 'PyFys', 'pyfys']
+__all__ = ['Constants', 'Masses']
