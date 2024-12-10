@@ -13,7 +13,7 @@ class fys:
 
         Parameters
         ----------
-        func : callable
+        func : callable or list/tuple of callables
             The function to be plotted. Should accept a single argument (x) and return a numeric value.
         start : float, optional
             The starting value of the x-axis range (default is 0).
@@ -35,20 +35,33 @@ class fys:
         None
             Displays the graph using matplotlib.
         """
-        xvalues = list(xvalues)
-        if xvalues != []:
-            x = xvalues
-        else:
-            x = numpy.linspace(start, stop) 
-        y = [func(i) for i in x]
-        plt.plot(x, y)
-        plt.title(title)
-        plt.xlabel(xlabel)
-        plt.ylabel(ylabel)
-        plt.grid(grid)
-        plt.legend()
-        plt.show()
+        try:
+            # make x values
+            xvalues = list(xvalues)
+            if xvalues != []:
+                x = xvalues
+            else:
+                x = numpy.linspace(start, stop) 
 
+            # plot function for function in input: func
+            if isinstance(func, (list, tuple)):
+                for function in func:
+                    y = [function(i) for i in x]
+                    plt.plot(x, y)
+            else:
+                y = [func(i) for i in x]
+                plt.plot(x, y)
+
+            plt.title(title)
+            plt.xlabel(xlabel)
+            plt.ylabel(ylabel)
+            plt.grid(grid)
+            plt.legend()
+            plt.tight_layout()
+            plt.show()
+        except Exception as e:
+            return f"Invalid input: {e}"
+                    
 
     def bar(self, values):
         """
