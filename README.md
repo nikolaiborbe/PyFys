@@ -1,4 +1,14 @@
-# PyFys
+<p align="center">
+  <img src="https://github.com/nikolaiborbe/PyFys/assets/logo.png" width="112" alt="PyFys Logo" />
+</p>
+
+<h1 align="center">PyFys</h1>
+
+<p align="center">An opinionated physics library.</p>
+<p align="center">
+<code>pip install pyfys</code>
+</p>
+<br />
 
 PyFys is a Python library designed to simplify physics calculations and visualizations. It provides tools for computing common physics quantities and creating graphs.
 
