@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import math
 import numpy
 import collections
-from constants import Constants
+from pyfys.constants import Constants
 
 class fys:
     
