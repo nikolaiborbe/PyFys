@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/nikolaiborbe/PyFys/assets/logo.png" width="112" alt="PyFys Logo" />
+  <img src="https://github.com/nikolaiborbe/PyFys/blob/main/assets/logo.png" width="112" alt="PyFys Logo" />
 </p>
 
 <h1 align="center">PyFys</h1>
